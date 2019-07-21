@@ -1,0 +1,17 @@
+<app-loader *ngIf="loader === true"></app-loader>
+<div class="form">
+  <div class=" flex">
+    <div class="input-field"> 
+      <input id="cep" type="text" [(ngModel)]="zipCode" (keydown.enter)="searchButton()" mask="00000-000">
+      <label for="cep">Insira seu cep</label>
+      <span *ngIf="error !== null" class="invalid" [attr.data-error]="error">{{ error }}</span>
+    
+    </div>
+
+    <button class="btn waves-effect waves-light transparent" type="submit" name="action" (click)="searchButton()">
+      <i class="material-icons right">search</i>
+    </button>
+  </div>
+
+</div>
+<app-detail-zip *ngIf="adress !== null" [adress]="adress"></app-detail-zip>
