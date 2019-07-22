@@ -1,6 +1,6 @@
 # SearchZipcode
 
-Projeto em Angular, usando API https://viacep.com.br/ para consulta de ceps e apresentação dos mesmos. Usando framawork Materialize (ngx-materialize), Sass em formato scss.
+Projeto em Angular, usando API https://viacep.com.br/ para consulta de ceps e apresentação dos mesmos. Usando framework Materialize (ngx-materialize), Sass em formato scss.
 
 Esse projeto foi gerado em [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
 
